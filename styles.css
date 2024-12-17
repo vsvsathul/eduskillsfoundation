@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.content {
+    width: 100%; /* Occupy the full width of the viewport */
+    max-width: 500px; /* Limit to a maximum size for larger screens */
+    height: 56.25vw; /* Maintain 16:9 ratio (56.25% of the width) */
+    background-image: url('eduskillfoundation.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Media Query for Very Small Devices */
+@media (max-width: 480px) {
+    .content {
+        width: 90%; /* Slight padding for very small devices */
+        height: auto; /* Let height adjust naturally */
+    }
+}
