@@ -1,2 +1,2 @@
 # eduskillsfoundation
-![eduskillsfoundaton gif](eduskillsfoundation.gif)
+![eduskillfoundaton gif](eduskillfoundation.gif)
